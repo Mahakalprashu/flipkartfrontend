@@ -1,0 +1,93 @@
+/* src/pages/Auth.css */
+
+/* Container card height & width */
+.auth-card {
+  max-width: 800px;   
+  height: 450px;      
+  margin: auto;       
+}
+
+/* Remove extra vertical padding */
+.gradient-form {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: #eee;
+}
+
+/* Gradient panel - Blue to Yellow */
+.gradient-custom-2 {
+  background: linear-gradient(to right, #1e3a8a, #3b82f6, #facc15, #fcd34d);
+  border-top-right-radius: 0.3rem;
+  border-bottom-right-radius: 0.3rem;
+  color: white;
+}
+
+/* Form content spacing */
+.auth-form-body {
+  padding: 1rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+/* Logo */
+.auth-logo {
+  width: 120px;
+  margin-bottom: 1rem;
+}
+
+/* Input fields */
+.form-outline input {
+  height: 45px;
+  border-radius: 0.25rem;
+  border: 1px solid #3b82f6;
+  padding-left: 0.75rem;
+}
+
+/* Input focus color */
+.form-outline input:focus {
+  border-color: #1e3a8a;
+  box-shadow: 0 0 0 0.2rem rgba(59, 130, 246, 0.25);
+  outline: none;
+}
+
+/* Buttons */
+.auth-button {
+  width: 100%;
+  margin-top: 0.5rem;
+  background-color: #1e3a8a; /* Dark Blue */
+  color: white;
+  border: none;
+  height: 45px;
+  font-weight: bold;
+  transition: all 0.3s;
+  border-radius: 0.25rem;
+}
+
+/* Button hover */
+.auth-button:hover {
+  background-color: #3b82f6; /* Light Blue */
+  color: #fff;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+/* Secondary button for signup redirect */
+.auth-button-outline {
+  width: 100%;
+  margin-top: 0.5rem;
+  background-color: transparent;
+  color: #1e3a8a;
+  border: 2px solid #1e3a8a;
+  height: 45px;
+  font-weight: bold;
+  border-radius: 0.25rem;
+  transition: all 0.3s;
+}
+
+/* Hover for outline button */
+.auth-button-outline:hover {
+  background-color: #3b82f6;
+  color: white;
+  border-color: #3b82f6;
+}
