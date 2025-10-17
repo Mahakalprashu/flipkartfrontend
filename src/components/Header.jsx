@@ -3,7 +3,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { FiShoppingCart, FiUser } from "react-icons/fi";
 import { IoIosSearch } from "react-icons/io";
 import { Link, useNavigate } from "react-router-dom";
-import logo from "../assets/image.png"; // Your Flipkart logo
+import logo from "../assets/image.png";
+// Your Flipkart logo
 
 const Header = ({ cartCount = 0 }) => {
   const navigate = useNavigate();
